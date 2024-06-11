@@ -11,7 +11,7 @@
     "Vue 3 Google maps"
   ],
   "bugs": {
-    "url": "https://github.com/NathanAP/vue-google-maps-community-fork/issues"
+    "url": "https://github.com/palfaro91/vue-google-maps-community-fork/issues"
   },
   "scripts": {
     "build": "node service/commands/build.js",
