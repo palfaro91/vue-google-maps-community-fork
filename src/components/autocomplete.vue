@@ -49,7 +49,8 @@ export default {
         const refName = _this.$slots.input()[0].props.ref
         const scopedInput = _this.$slots.input()[0].ref.i.ctx.$refs[refName]
         if (scopedInput) {
-          refInput = scopedInput.$el.getElementsByTagName('input')[0]
+          const el = scopedInput.$el || scopedInput
+          refInput = el.getElementsByTagName('input')[0]
         }
       }
       if (this.selectFirstOnEnter) {
