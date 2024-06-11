@@ -47,7 +47,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanAP/vue-google-maps-community-fork.git"
+    "url": "git+https://github.com/palfaro91/vue-google-maps-community-fork.git"
   },
   "types": "types/index.d.ts",
   "dependencies": {
